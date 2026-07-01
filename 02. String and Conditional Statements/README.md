@@ -3,7 +3,7 @@ String and Conditional Statements
 A comprehensive collection of Python practice files covering string manipulation and conditional logic — essential building blocks for any Python developer.
 
 
-📚 Topics Covered
+Topics Covered
 
 Part 1: String Operations
 
@@ -14,7 +14,7 @@ Part 2: Conditional Statements
 Master decision-making logic using if, elif, and else statements to control program flow based on conditions.
 
 
-📋 Practice Files
+Practice Files
 
 String Manipulation
 
@@ -25,24 +25,24 @@ Conditional Statements
 FileTopicDescription07_Conditions.pyIf-Elif-Else LogicDecision-making with conditional statements and logical operators08_Con_Practice1.pyPractice Exercise 1Basic conditional logic challenges09_Cond_Practice2.pyPractice Exercise 2Nested conditions and multiple branches10_Cond_Practice3.pyPractice Exercise 3Complex problem-solving with conditions
 
 
-🎯 Learning Outcomes
+Learning Outcomes
 
 After completing this topic, you will be able to:
 
-✅ Concatenate and manipulate strings using various methods
+Concatenate and manipulate strings using various methods
 
-✅ Extract characters and substrings using indexing and slicing
+Extract characters and substrings using indexing and slicing
 
-✅ Apply built-in string functions for text processing
+Apply built-in string functions for text processing
 
-✅ Write conditional logic using if, elif, and else
+Write conditional logic using if, elif, and else
 
-✅ Combine multiple conditions using logical operators (and, or, not)
+Combine multiple conditions using logical operators (and, or, not)
 
-✅ Debug and test conditional code effectively
+Debug and test conditional code effectively
 
 
-💡 Key Concepts
+Key Concepts
 
 Strings
 
@@ -77,7 +77,7 @@ else:
     grade = 'C'
 
 
-🚀 How to Use This Folder
+How to Use This Folder
 
 
 Read the Apna College lessons on Strings and Conditional Statements
@@ -88,7 +88,7 @@ Test your knowledge with the quiz below
 
 
 
-✍️ Mini-Quiz
+Mini-Quiz
 
 Test your understanding before moving to the next topic:
 
@@ -123,7 +123,7 @@ if ____:
 (Hint: Use string indexing)
 
 
-🔗 Resources
+Resources
 
 
 Apna College (YouTube): String & Conditional Statements Playlist
@@ -132,7 +132,7 @@ Python Docs: If Statements
 
 
 
-📊 Progress Tracker
+Progress Tracker
 
 
  String Concatenation
@@ -144,14 +144,14 @@ Python Docs: If Statements
 
 
 
-🎓 Next Topic
+Next Topic
 
 Once you've completed all files and the quiz, you're ready for:
 
-📌 Phase 1, Topic 3: Loops (for, while)
+Phase 1, Topic 3: Loops (for, while)
 
 
-📝 Author Notes
+Author Notes
 
 
 Always pay attention to colons (:) and indentation in Python — they're crucial!

@@ -1,12 +1,39 @@
-# Contact Book (Dictionary & Set Based)
+# 04. Dictionaries and Sets
 
-A simple console-based contact management system built in Python to practice working with dictionaries and sets.
+This folder contains all my practice work and the portfolio project for the Dictionaries and Sets topic, part of Phase 1 (Foundations) of my AI Engineer roadmap.
 
-## Description
+## Folder Contents
 
-This project lets you store, view, and delete contacts. Each contact is stored as a nested dictionary containing their phone number, email, and city. A separate set is used to track all unique cities across contacts, demonstrating how sets automatically handle duplicate values.
+| File | Description |
+|---|---|
+| 01_dic.py | Dictionary basics — creating dictionaries, adding keys, accessing values |
+| 02_nested_dic.py | Nested dictionaries — dictionaries containing other dictionaries as values |
+| 03_dic_methods.py | Built-in dictionary methods (.get(), .keys(), .values(), .items(), .update(), del, etc.) |
+| 04_sets.py | Set basics — creating sets, adding/removing elements, uniqueness behavior |
+| 05_sets_methods.py | Set methods and operations (union, intersection, difference, symmetric_difference) |
+| 06_practice1.py | Practice exercise 1 |
+| 07_practice.py | Practice exercise 2 |
+| 08_practice.py | Practice exercise 3 |
+| 09_practice.py | Practice exercise 4 |
+| 10_project.py | Portfolio project — Contact Book (console-based, using nested dictionaries and sets) |
 
-## Features
+## Topic Overview
+
+This section of my learning covered two core Python data structures:
+
+**Dictionaries** — key-value pair storage, used for representing structured, labeled data. Covered creation, access, safe lookup with .get(), nested dictionaries, and common built-in methods.
+
+**Sets** — unordered collections of unique, immutable elements. Covered creation, uniqueness behavior, and set operations like union, intersection, and difference.
+
+## Portfolio Project: Contact Book
+
+The main project in this folder (10_project.py) is a console-based contact management system.
+
+### Description
+
+Stores contacts using a dictionary where each contact name maps to a nested dictionary of their phone, email, and city. A set tracks all unique cities across contacts.
+
+### Features
 
 - Add new contacts (name, phone, email, city)
 - View a specific contact's details safely (no crash if contact doesn't exist)
@@ -14,7 +41,7 @@ This project lets you store, view, and delete contacts. Each contact is stored a
 - Display all contacts
 - Track and display all unique cities using a set
 
-## Concepts Used
+### Concepts Used
 
 - Dictionaries — storing structured data as key-value pairs
 - Nested dictionaries — dict of dicts (contacts["Ali"] = {...})
@@ -26,24 +53,24 @@ This project lets you store, view, and delete contacts. Each contact is stored a
 
 ## Learning Outcomes
 
-- Understood the difference between = (assignment) vs : (key-value separator) in dict syntax — made this mistake multiple times before it clicked.
-- Learned that dict values can themselves be dictionaries, which is useful for structured records like contacts.
-- Learned that sets can't contain mutable items like lists, since their elements must be hashable/immutable.
-- Practiced defensive coding — checking if name in contacts before deleting, to avoid errors.
-- Used .get() to avoid KeyError when looking up a contact that might not exist.
+- Understood the difference between = (assignment) and : (key-value separator) in dictionary syntax — this tripped me up multiple times before it clicked.
+- Learned that dictionary values can themselves be dictionaries, useful for structured records like contacts.
+- Learned that sets cannot contain mutable items like lists, since set elements must be hashable/immutable.
+- Practiced defensive coding — checking if a key exists before deleting it, to avoid runtime errors.
+- Used .get() to avoid KeyError when looking up something that might not exist.
 
-## How to Run
+## How to Run the Project
 
-python contact_book.py
+python 10_project.py
 
-You'll be prompted to view and delete a contact by name (contacts are currently hardcoded — dynamic add/delete via loop coming once the Loops topic is covered).
+Contacts are currently hardcoded in the script. Dynamic add/delete through user input in a loop will be added once the Loops topic is covered.
 
 ## Future Improvements
 
 - Add a menu-driven loop (while True) for continuous add/view/delete without re-running the script
 - Prevent duplicate contact names from overwriting existing ones
-- Pretty-print contact details instead of raw dict output
+- Pretty-print contact details instead of raw dictionary output
 
 ---
-Topic: Dictionaries & Sets — Phase 1 (Foundations)
+Topic: Dictionaries and Sets — Phase 1 (Foundations)
 Status: Complete

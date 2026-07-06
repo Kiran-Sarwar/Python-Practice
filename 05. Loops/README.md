@@ -1,54 +1,74 @@
-#  Number Guessing Game (Loops Portfolio Project)
+#  Python-Practice — AI Engineer Roadmap Journey
 
-##  Project Overview
-This is a console-based **Number Guessing Game** built to demonstrate mastery of **loops, conditionals, and user input handling** in Python. It's the capstone project for the "Loops" topic in my AI Engineer roadmap (Phase 1: Python Foundations).
+Hey, I'm Kiran — a Software Engineering student on a mission to become an **AI Engineer**. This repo is my public log of that journey, starting from Python fundamentals and building up toward ML, Deep Learning, and LLM/AI Engineering skills.
 
-The program picks a random number and challenges the user to guess it within a limited number of attempts, with feedback ("Too High"/"Too Low") after every guess. It also includes difficulty levels and a replay option.
+I'm following a structured 5-phase roadmap, learning core concepts through the **Apna College** Python curriculum, and building a portfolio project after every major topic.
 
-##  Features
-- Random number generation using the `random` module
-- Difficulty selection (**Easy** 1–50, **Medium** 1–100, **Hard** 1–200)
-- Limited attempts (10 max) with live attempt counter
-- Input validation using `try/except` (handles non-numeric input gracefully)
-- "Too High" / "Too Low" / "Correct!" feedback loop
-- Win/loss detection using a `while...else` loop (loop-`else` runs only if attempts run out without guessing correctly)
-- Replay option (`play again?`) using an outer `while True` loop with a `break` condition
+---
 
-##  Concepts Practiced
-| Concept | Where it's used |
-|---|---|
-| `while` loops | Main guessing loop, outer replay loop |
-| `for` / `range()` | (learned earlier in this topic, applied conceptually to attempt counting) |
-| `break` | Exiting the guessing loop on a correct guess; exiting replay loop on "no" |
-| `continue` | (understood from quiz; not directly needed here) |
-| loop `else` | Detecting "ran out of attempts" without a manual flag variable |
-| Conditionals (`if`/`elif`/`else`) | Difficulty selection, guess comparison |
-| Exception handling (`try`/`except`) | Preventing crashes on invalid input |
-| f-strings | Clean, readable dynamic output |
+##  Roadmap Overview
 
-##  File
-- `13.project.py` — full source code for the game
+| Phase | Focus | Status |
+|---|---|---|
+| **Phase 1** | Python Foundations, Math, Git, CLI | 🟡 In Progress |
+| **Phase 2** | ML & Deep Learning | ⬜ Not Started |
+| **Phase 3** | LLM & AI Engineering Stack | ⬜ Not Started |
+| **Phase 4** | Deployment & MLOps | ⬜ Not Started |
+| **Phase 5** | Specialization & Portfolio | ⬜ Not Started |
 
-##  How to Run
-```bash
-python 13.project.py
+---
+
+##  Phase 1 Progress — Python Foundations
+
+| Topic | Status | Project |
+|---|---|---|
+| Variables & Datatypes | ✅ Complete | — |
+| Strings & Conditional Statements | ✅ Complete | — |
+| Tuples & Lists | ✅ Complete | Student Grade Tracker |
+| Dictionaries & Sets | ✅ Complete | Contact Book |
+| **Loops** | ✅ Complete | **Number Guessing Game** |
+| Functions & Recursion | 🔜 Next Up | — |
+| File I/O | ⬜ Not Started | — |
+| OOPs | ⬜ Not Started | — |
+
+Once all Phase 1 topics are done, a full **console-based capstone project** combining everything will be built before moving to Phase 2.
+
+---
+
+##  Repo Structure
+```
+Python-Practice/
+├── 01. Variables and Datatypes/
+├── 02. Strings and Conditionals/
+├── 03. Tuples and Lists/
+├── 04. Dictionaries and Sets/
+├── 05. Loops/
+│   ├── practice files (01–12)
+│   ├── 13.project.py        ← Number Guessing Game (portfolio project)
+│   └── README.md             ← topic-specific writeup
+├── 06. Functions and Recursion/   (coming soon)
+└── ...
 ```
 
-##  Learning Outcomes
-- Understood the practical difference between `while` and `for` loops, and when to choose each
-- Learned how loop-`else` avoids the need for a manual "found/not found" flag variable
-- Practiced defensive coding with `try/except` to prevent crashes from bad user input
-- Built a full interactive program combining nested loops, conditionals, and state (attempts, score) that persists across a game round
+Each topic folder contains its own `README.md` with:
+- Project description
+- Concepts practiced
+- Learning outcomes
+- How to run the code
 
-##  GitHub Upload Instructions
-1. Open **GitHub Desktop**
-2. Confirm the repo is `Python-Practice` and the current branch is `main`
-3. Make sure `13.project.py` (and this `README.md`) are inside the `05. Loops` folder
-4. In GitHub Desktop, you should see the new files listed under "Changes"
-5. Write a commit message, e.g.:
-   ```
-   Add: Number Guessing Game project + README for Loops topic
-   ```
-6. Click **Commit to main**
-7. Click **Push origin** to upload to GitHub
-8. Verify on github.com/Kiran-Sarwar/Python-Practice that the files appear in `05. Loops`
+---
+
+##  Tools & Workflow
+- **Editor:** VS Code
+- **Version Control:** Git + GitHub Desktop
+- **Learning Source:** Apna College (YouTube) for core lessons
+- **Mentor/Reviewer:** Claude — used for quizzes, code review, and project feedback
+
+---
+
+##  Long-Term Goal
+Build toward being **job-ready, research-ready, and startup-ready** as an AI Engineer — covering the full stack from Python fundamentals through ML, Deep Learning, RAG, and AI Agents.
+
+---
+
+⭐ Feel free to follow along — more topics and projects are added as I progress through the roadmap!

@@ -1,0 +1,3 @@
+I want to learn JavaScript.
+Then I will move to React JS.
+Learning Python File Handling.
